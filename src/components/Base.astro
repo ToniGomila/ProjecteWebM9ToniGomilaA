@@ -1,0 +1,49 @@
+---
+// Style Imports
+import '../styles/global.css';
+// Component Imports
+// You can import components from any supported Framework here!
+
+
+// Full Astro Component Syntax:
+// https://docs.astro.build/core-concepts/astro-components/
+---
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Toni Gomila</title>
+
+	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    
+    <style>
+    
+    </style>
+	
+</head>
+<body>
+	
+	<div id="hdr">
+		<div id="box-1" class="hdr-div">
+			<a href="/pages/index.astro" class="hdr-bt">HOME</a>
+		</div>
+		<div id="box-2" class="hdr-div">
+			<a href="" class="hdr-bt">ABOUT</a>
+		</div>
+		<div id="box-3" class="hdr-div">
+			<a href="" class="hdr-bt">3</a>
+		</div>
+		<div id="box-4" class="hdr-div">
+			<a href="" class="hdr-bt">4</a>
+		</div>
+	</div>
+
+	<slot></slot>
+
+	<div id="ftr">
+		hola
+	</div>
+
+	
+</body>
+</html>

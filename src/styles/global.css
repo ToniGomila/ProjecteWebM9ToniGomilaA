@@ -1,28 +1,51 @@
-* {
-	box-sizing: border-box;
-	margin: 0;
+@import url(./reset.css);
+@import url(/public/fonts/InterWeb/inter.css);
+:root{
+	--blanc: #ffffff;
+	--brut: #ededed;
+	--tarj: #ff7900;
+	--sfosc: #333333;
+	--fosc:#05040c;
 }
-
-:root {
-	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
-	font-size: 1rem;
-	--user-font-scale: 1rem - 16px;
-	font-size: clamp(0.875rem, 0.4626rem + 1.0309vw + var(--user-font-scale), 1.125rem);
+a:link, a:visited, a:active {
+    text-decoration:none;
+	color: var(--fosc);
 }
-
-body {
-	padding: 4rem 2rem;
-	width: 100%;
-	min-height: 100vh;
+body{
 	display: grid;
-	justify-content: center;
-	background: #f9fafb;
-	color: #111827;
+	grid-template-columns: 1fr 4fr;
+	grid-template-rows: 1fr 6fr 1fr;
+	
 }
+#hdr{
+	background-color: var(--brut);
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	border-bottom: 2px solid var(--fosc);
+	
 
-@media (prefers-color-scheme: dark) {
-	body {
-		background: #111827;
-		color: #fff;
-	}
+}
+#ftr{
+	background-color: #05040c;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 3;
+}
+.hdr-bt{
+	display: flex;
+	flex-flow: wrap;
+	float: left;
+	margin: 10px;
+	background-color: var(--blanc);
+	width: 7rem;
+	height: 2rem;
+	border: 2px solid var(--tarj);
+	align-items: center;
+	justify-content: center;
+}
+.hdr-div{
+	font-family: Inter;
+	color: var(--fosc);
+	
 }
