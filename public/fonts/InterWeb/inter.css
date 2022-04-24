@@ -75,7 +75,7 @@
        url("Inter-Medium.woff?v=3.19") format("woff");
 }
 @font-face {
-  font-family: 'Inter';
+  font-family: 'InterSI';
   font-style:  italic;
   font-weight: 500;
   font-display: swap;
@@ -101,7 +101,7 @@
 }
 
 @font-face {
-  font-family: 'Inter';
+  font-family: 'InterBold';
   font-style:  normal;
   font-weight: 700;
   font-display: swap;
@@ -109,7 +109,7 @@
        url("Inter-Bold.woff?v=3.19") format("woff");
 }
 @font-face {
-  font-family: 'Inter';
+  font-family: 'InterBI';
   font-style:  italic;
   font-weight: 700;
   font-display: swap;
@@ -126,7 +126,7 @@
        url("Inter-ExtraBold.woff?v=3.19") format("woff");
 }
 @font-face {
-  font-family: 'Inter';
+  font-family: 'InterEBI';
   font-style:  italic;
   font-weight: 800;
   font-display: swap;
