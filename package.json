@@ -10,5 +10,8 @@
   },
   "devDependencies": {
     "astro": "^0.24.3"
+  },
+  "dependencies": {
+    "astro-script": "^0.1.1"
   }
 }
