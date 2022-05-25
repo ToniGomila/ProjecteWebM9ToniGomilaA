@@ -15,7 +15,7 @@ import Base from '../components/Base.astro'
         lobortis. Ut in dui pretium, congue risus ac, placerat turpis. Ut in accumsan dui. Vivamus non 
         facilisis velit, at finibus mi. Nunc vitae dignissim tortor. 
         Sed quis pellentesque massa, eu faucibus dui. Proin sed varius nunc, id ultrices dolor. Duis feugiat 
-        fringilla risus, ac gravida risus bibendum eget. <img id="iPr" src="/img/p.png" width="400px" height="250">In cursus ex quam, dignissim accumsan tellus 
+        fringilla risus, ac gravida risus bibendum eget. In cursus ex quam, dignissim accumsan tellus 
         placerat sit amet. Vivamus gravida nisi sit amet lacus fermentum aliquet. Sed quis varius risus. 
         Nulla quis pretium nisl. 
         Proin gravida elit id tellus dignissim blandit. Donec molestie et lacus 
@@ -32,12 +32,13 @@ import Base from '../components/Base.astro'
         porta cursus.</p>
     </div>
     <div class="gale">
-        <img id="im1" class="im" src="/img/p.png" width="400px" height="250">
-        <img id="im2" class="im" src="/img/p.png" width="400px" height="250">
-        <img id="im3" class="im" src="/img/p.png" width="400px" height="250">
-        <img id="im4" class="im" src="/img/p.png" width="400px" height="250">
-        <img id="im5" class="im" src="/img/p.png" width="400px" height="250">
-        <img id="im6" class="im" src="/img/p.png" width="400px" height="250">
+        <img id="im1" class="im" src="/img/im1.jpg" width="400px" height="250">
+        <img id="im2" class="im" src="/img/im2.jpg" width="400px" height="250">
+        <img id="im3" class="im" src="/img/im3.jpg" width="400px" height="250">
+        <img id="im4" class="im" src="/img/im4.jpg" width="400px" height="250">
+        <img id="im5" class="im" src="/img/im5.jpg" width="400px" height="250">
+        <img id="im6" class="im" src="/img/im6.jpg" width="400px" height="250">
+        <img id="im6" class="im" src="/img/im7.jpg" width="400px" height="250">
     </div>
     <div id="myModal" class="modal">
         <span class="close">&times;</span>
@@ -45,14 +46,34 @@ import Base from '../components/Base.astro'
         <div id="caption"></div>
     </div>
     <div class="text">
-    <p id="segon">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac orci cursus magna venenatis efficitur. Proin vel ante diam. 
-    Praesent vel enim dui. Curabitur odio eros, efficitur non massa non, eleifend egestas arcu. Aenean vel eros odio. Aenean ac tellus 
-    non massa condimentum hendrerit. Fusce eget orci lobortis, maximus nunc non, tincidunt purus. Phasellus vitae porttitor nunc. Maecenas 
-    dolor purus, ullamcorper ac enim eleifend, eleifend lacinia dolor. Pellentesque massa velit, tincidunt in eros id, faucibus elementum 
-    sem. Quisque pulvinar sit amet eros eget pretium. Sed sed rutrum augue. Aliquam consequat lacus in diam eleifend efficitur ac et justo.
-    Aliquam vitae augue eu mi tincidunt accumsan. Morbi eu arcu malesuada, laoreet diam quis, efficitur nibh. Phasellus et pharetra sem, 
-    et posuere lorem.</p>
-</div>
+        <p id="segon">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac orci cursus magna venenatis efficitur. Proin vel ante diam. 
+            Praesent vel enim dui. Curabitur odio eros, efficitur non massa non, eleifend egestas arcu. Aenean vel eros odio. Aenean ac tellus 
+            non massa condimentum hendrerit. Fusce eget orci lobortis, maximus nunc non, tincidunt purus. Phasellus vitae porttitor nunc. Maecenas 
+            dolor purus, ullamcorper ac enim eleifend, eleifend lacinia dolor. Pellentesque massa velit, tincidunt in eros id, faucibus elementum 
+            sem. Quisque pulvinar sit amet eros eget pretium. Sed sed rutrum augue. Aliquam consequat lacus in diam eleifend efficitur ac et justo.
+            Aliquam vitae augue eu mi tincidunt accumsan. Morbi eu arcu malesuada, laoreet diam quis, efficitur nibh. Phasellus et pharetra sem, 
+            et posuere lorem.
+        </p>
+    </div>
+    <div class="audioContainer">
+        <audio controls>
+            <source src="/audio/mdq.mp3" type="audio/mp3">
+                Tu navegador no soporta audio HTML5.
+        </audio>
+        <audio controls>
+            <source src="/audio/negro.mp3" type="audio/mp3">
+                Tu navegador no soporta audio HTML5.
+        </audio>
+        <audio controls>
+            <source src="/audio/masia.mp3" type="audio/mp3">
+                Tu navegador no soporta audio HTML5.
+        </audio>
+        <audio controls>
+            <source src="/audio/army.mp3" type="audio/mp3">
+                Tu navegador no soporta audio HTML5.
+        </audio>
+    </div>
 </div>
     <script>
         // Get the modal
@@ -80,7 +101,4 @@ import Base from '../components/Base.astro'
         modal.style.display = "none";
         })
     </script>
-
-
-
 </Base>
